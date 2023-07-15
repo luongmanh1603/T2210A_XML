@@ -1,0 +1,10 @@
+{
+    "name": "Nguyen Van An",
+    "age": 18,
+    "tel": "0123456",
+    "address": "So 8 TTT",
+    "class": {
+        "name": "T2210A",
+        "room": "B10"
+    }
+}
