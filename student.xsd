@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="student">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="name" type="xsd:string"></xsd:element>
+                <xsd:element name="age" type="xsd:string"></xsd:element>
+                <xsd:element name="tel" type="xsd:string" minOccurs="1" maxOccurs="10"></xsd:element>
+                <xsd:element name="address" type="xsd:string"></xsd:element>
+                <xsd:element name="class">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="name" type="xsd:string"></xsd:element>
+                            <xsd:element name="room" type="xsd:string"></xsd:element>
+                        </xsd:sequence>
+                        
+                    </xsd:complexType>
+                </xsd:element>
+
+            </xsd:sequence>
+
+        </xsd:complexType>
+
+    </xsd:element>
+</xsd:schema>
