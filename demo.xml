@@ -1,0 +1,15 @@
+<?xml version ="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE student SYSTEM "./student.dtd"> -->
+<!--<?xml-stylesheet href="student.css" type="text/css"?> -->
+<?xml-stylesheet href="student.xslt" type="text/css"?>
+<student xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="./student.xsd">
+    <name>Nguyen Van An</name>
+    <age>18</age>
+    <tel>0987654323</tel>
+    <address>8A Ton That Thuyet</address>
+    <class>
+        <name>T2210A</name>
+        <room>B10</room>
+    </class>
+</student>
