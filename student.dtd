@@ -1,0 +1,8 @@
+<!ELEMENT student (name,age,(tel|mobile),address, class)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT tel (#PCDATA)>
+<!ELEMENT mobile (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT class (name,room)>
+<!ELEMENT room (#PCDATA)>
